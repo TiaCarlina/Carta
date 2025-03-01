@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta del Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+        }
+        .menu {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .item {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .item h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #222;
+        }
+        .item span {
+            font-size: 16px;
+            font-weight: bold;
+            color: #e63946;
+        }
+        .ingredients {
+            font-size: 14px;
+            color: #777;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h2>Hamburguesas</h2>
+        
+        <div class="item">
+            <h3>Hamburguesa Completa <span>$8000</span></h3>
+            <p class="ingredients">Meat, lettuce, tomato, cheese, avocado, mayonnaise</p>
+        </div>
+        
+        <div class="item">
+            <h3>Hamburguesa Tomate <span>$6000</span></h3>
+            <p class="ingredients">Meat, tomato, mayonnaise</p>
+        </div>
+        
+        <div class="item">
+            <h3>Hamburguesa Italiana <span>$6500</span></h3>
+            <p class="ingredients">Meat, mayonnaise, tomato, avocado</p>
+        </div>
+        
+        <div class="item">
+            <h3>Hamburguesa Queso <span>$6500</span></h3>
+            <p class="ingredients">Meat, mayonnaise, cheese</p>
+        </div>
+        
+        <div class="item">
+            <h3>Hamburguesa a lo Pobre <span>$6000</span></h3>
+            <p class="ingredients">Meat, onion, egg</p>
+        </div>
+        
+        <div class="item">
+            <h3>Hamburguesa Palta <span>$6000</span></h3>
+            <p class="ingredients">Meat, mayonnaise, avocado</p>
+        </div>
+        
+        <div class="item">
+            <h3>Hamburguesa Tía Carlina <span>$8500</span></h3>
+            <p class="ingredients">Meat, lettuce, avocado, tomato, cheese, ham, egg</p>
+        </div>
+        
+        <h2>Sándwiches</h2>
+        
+        <div class="item">
+            <h3>Churrasco Simple <span>$6000</span></h3>
+            <p class="ingredients">Meat, mayonnaise, lettuce, tomato</p>
+        </div>
+        
+        <div class="item">
+            <h3>Churrasco Completo <span>$8000</span></h3>
+            <p class="ingredients">Meat, lettuce, tomato, cheese, avocado, mayonnaise</p>
+        </div>
+        
+        <div class="item">
+            <h3>Churrasco a lo Pobre <span>$6500</span></h3>
+            <p class="ingredients">Meat, egg, onion, mayonnaise</p>
+        </div>
+        
+        <div class="item">
+            <h3>Barros Luco <span>$6500</span></h3>
+            <p class="ingredients">Meat, mayonnaise, cheese</p>
+        </div>
+        
+        <div class="item">
+            <h3>Barros Luco Palta <span>$6000</span></h3>
+            <p class="ingredients">Meat, mayonnaise, cheese, avocado</p>
+        </div>
+        
+        <div class="item">
+            <h3>Churrasco Palta <span>$6000</span></h3>
+            <p class="ingredients">Meat, mayonnaise, avocado</p>
+        </div>
+        
+        <div class="item">
+            <h3>Churrasco Tomate <span>$6000</span></h3>
+            <p class="ingredients">Meat, mayonnaise, tomato</p>
+        </div>
+        
+        <div class="item">
+            <h3>Churrasco Italiano <span>$6500</span></h3>
+            <p class="ingredients">Meat, mayonnaise, tomato, avocado</p>
+        </div>
+		
+		<div class="item">
+            <h3>York Carne <span>$6000</span></h3>
+            <p class="ingredients">Meat, eggs</p>
+        </div>
+		
+		<div class="item">
+            <h3>York Jamón <span>$5000</span></h3>
+            <p class="ingredients">Eggs, ham</p>
+        </div>
+		
+		<div class="item">
+            <h3>Churrasco Solo <span>$5000</span></h3>
+            <p class="ingredients">Meat, mayonnaise</p>
+        </div>
+		
+		<div class="item">
+            <h3>Barros Jarpa <span>$5000</span></h3>
+            <p class="ingredients">Cheese, ham</p>
+        </div>
+		
+		<div class="item">
+            <h3>Tia Carlina <span>$8500</span></h3>
+            <p class="ingredients">Meat, lettuce, avocado, tomato, cheese, ham, eggs</p>
+        </div>
+		
+		<div class="item">
+            <h3>Sandwich Vegetariano <span>$6000</span></h3>
+            <p class="ingredients"> </p>
+        </div>
+        
+        <h2>Picadas</h2>
+        
+        <div class="item">
+            <h3>Picada 2 personas <span>$14000</span></h3>
+            <p class="ingredients">Mix with french fries, chicken, beef, cheese, sausage, egg (for two persons)</p>
+        </div>
+        
+        <div class="item">
+            <h3>Picada 4 personas <span>$18000</span></h3>
+            <p class="ingredients">Mix with french fries, chicken, beef, cheese, sausage, egg (serves four)</p>
+        </div>
+        
+        <div class="item">
+            <h3>Picada Familiar <span>$22000</span></h3>
+            <p class="ingredients">Mix with french fries, chicken, beef, cheese, sausage, egg (family size)</p>
+        </div>
+        
+        <div class="item">
+            <h3>Porción de Pollo con Papas Fritas <span>$7000</span></h3>
+            <p class="ingredients">Chicken with french fries</p>
+        </div>
+        
+        <div class="item">
+            <h3>Papas Fritas Individual <span>$3500</span></h3>
+            <p class="ingredients">French fries (Individual portion)</p>
+        </div>
+        
+        <div class="item">
+            <h3>Papas Fritas Grande <span>$10000</span></h3>
+            <p class="ingredients">French fries (Big portion)</p>
+        </div>
+        
+        <div class="item">
+            <h3>Salchipapas <span>$5000</span></h3>
+            <p class="ingredients">Sausage with french fries</p>
+        </div>
+		
+		<h2>Ensaladas</h2>
+		
+		<div class="item">
+            <h3>Ensalada <span>$2500</span></h3>
+            <p class="ingredients">Salad with lettuce from the garden</p>
+        </div>
+		
+		<div class="item">
+            <h3>Ensalada Surtida <span>$5000</span></h3>
+            <p class="ingredients"> </p>
+        </div>
+		
+		<div class="item">
+            <h3>Ensalada Mixta (Tomate, Lechuga) <span>$4000</span></h3>
+            <p class="ingredients">Mixed salad with tomato and lettuce</p>
+        </div>
+		
+		<div class="item">
+            <h3>Ensalada a la Chilena <span>$4000</span></h3>
+            <p class="ingredients">Chilean Salad with tomatoes and onions</p>
+        </div>
+		
+		<h2>Platos</h2>
+		
+		<div class="item">
+            <h3>Churrasco a lo Pobre al plato <span>$8500</span></h3>
+            <p class="ingredients">Meat, onion, eggs</p>
+        </div>
+		
+		<div class="item">
+            <h3>Hamburguesa a lo Pobre al Plato <span>$8500</span></h3>
+            <p class="ingredients">Hamburger, onion, eggs</p>
+        </div>
+		
+		<div class="item">
+            <h3>Milanesa de carne con papas fritas <span>$9000</span></h3>
+            <p class="ingredients">Breaded veal cutlet with french fries</p>
+        </div>
+		
+		<div class="item">
+            <h3>Milanesa de carne a lo Pobre <span>$10000</span></h3>
+            <p class="ingredients">Breaded veal cutlet with onions, eggs and french fries</p>
+        </div>
+		
+		<div class="item">
+            <h3>Milanesa de pollo a lo pobre <span>$10000</span></h3>
+            <p class="ingredients">Breaded chicken cutlet with onions, eggs and fries</p>
+        </div>
+		
+		<div class="item">
+            <h3>Milanesa sola <span>$6000</span></h3>
+            <p class="ingredients">Breaded veal chop</p>
+        </div>
+		
+		<div class="item">
+            <h3>Chuletas de cerdo con papas fritas <span>$8000</span></h3>
+            <p class="ingredients">Pork chop with french fries</p>
+        </div>
+		
+		<div class="item">
+            <h3>Milanesa Napolitana c/agragado <span>$11500</span></h3>
+            <p class="ingredients"> </p>
+        </div>
+		
+		<div class="item">
+            <h3>Milanesa Napolitana Pobre <span>$14000</span></h3>
+            <p class="ingredients"> </p>
+        </div>
+		
+		<div class="item">
+            <h3>Lomo carne Pobre <span>$15000</span></h3>
+            <p class="ingredients"> </p>
+        </div>
+		
+		<div class="item">
+            <h3>Hamburguesa c/acomp <span>$8000</span></h3>
+            <p class="ingredients"> </p>
+        </div>
+		
+		<div class="item">
+            <h3>Churrasco c/acomp <span>$8000</span></h3>
+            <p class="ingredients"> </p>
+        </div>
+		
+		<h2>Productos del Mar</h2>
+		
+		<div class="item">
+            <h3>Salmon a lo Pobre <span>$14000</span></h3>
+            <p class="ingredients">Salmon with onions, french fries and an egg</p>
+        </div>
+		
+		<div class="item">
+            <h3>Salmon a la plancha <span>$10000</span></h3>
+            <p class="ingredients">Grilled salmon</p>
+        </div>
+		
+		<div class="item">
+            <h3>Salmon con Papas fritas <span>$12000</span></h3>
+            <p class="ingredients">Salmon with french fries</p>
+        </div>
+		
+		<div class="item">
+            <h3>Paila Marina <span>$11000</span></h3>
+            <p class="ingredients">Mix seafood broth</p>
+        </div>
+		
+		<h2>Jugos</h2>
+		
+		<div class="item">
+            <h3>Bebida Personal <span>$2200</span></h3>
+            <p class="ingredients">Personal Drink</p>
+        </div>
+		
+		<div class="item">
+            <h3>Bebida de litro <span>$2500</span></h3>
+            <p class="ingredients">Liter Drink</p>
+        </div>
+		
+		<div class="item">
+            <h3>Bebida de litro ½ <span>$3000</span></h3>
+            <p class="ingredients">One and a half liter drink</p>
+        </div>
+		
+		<div class="item">
+            <h3>Jugo de litro ½ <span>$3000</span></h3>
+            <p class="ingredients">One and a Half Liter Juice</p>
+        </div>
+		
+		<div class="item">
+            <h3>Bebida de 3 litros <span>$6000</span></h3>
+            <p class="ingredients">3 Liter Drink</p>
+        </div>
+		
+		<div class="item">
+            <h3>Café o Té <span>$2000</span></h3>
+            <p class="ingredients">Coffee or Tea</p>
+        </div>
+    </div>
+</body>
+</html>
